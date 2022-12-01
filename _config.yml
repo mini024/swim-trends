@@ -13,7 +13,8 @@ presskit_download_link                    : https://emilbaehr.com               
 app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Swim Trends is a dashboard that shows your most recent swim data and trends. It uses the data tracked from your workouts to create a workout summary and graph your trends. 
+app_description                           : Swim Trends is a dashboard to visualize your workout metrics in a summary view and it creates a trends page to see the change between workouts.
+
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -37,11 +38,11 @@ features                                  :
 
   - title                                 : Recent Swim
     description                           : Using your workout data we display a summary with the relevant metrics.
-    fontawesome_icon_name                 : clock-o
+    fontawesome_icon_name                 : clock
     
   - title                                 : Trends
     description                           : Preview your swim metric trends to better understand your progress.
-    fontawesome_icon_name                 : line-chart
+    fontawesome_icon_name                 : chart-line
 
   - title                                 : History
     description                           : Access all your swims and view their summaries. 
